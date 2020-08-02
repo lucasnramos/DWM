@@ -11,9 +11,22 @@ In order to build dwm you need the Xlib header files.
 
 ### Debian based distros
 
-Install these packages to build DWM on Debian
-
     sudo apt install libx11-dev libxft-dev libxinerama-dev
+
+### Fedora
+
+    sudo dnf install libx11-devel libxft-devel libxinerama-devel
+
+### Recommended Software
+
+- dunst
+- volumeicon
+- lxappearance
+- sxhkd
+- dmenu or rofi
+- gnome-keyring components
+- nitrogen for wallpaper
+- ranger or nnn for file manager
 
 ## Installation
 
