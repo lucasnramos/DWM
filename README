@@ -7,6 +7,27 @@ Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 
+Build Dependencies
+------------------
+
+Debian based distros
+
+    sudo apt install libx11-dev libxft-dev libxinerama-dev
+
+Fedora
+
+    sudo dnf install libx11-devel libxft-devel libxinerama-devel
+
+Some Recommended Software
+
+- dunst
+- volumeicon
+- lxappearance
+- sxhkd
+- dmenu or rofi
+- gnome-keyring components
+- nitrogen for wallpaper
+- ranger or nnn for file manager
 
 Installation
 ------------
@@ -46,3 +67,9 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+Add to xsessions
+----------------
+
+Copy the dwm.desktop file to: /usr/share/xsessions/
